@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú Navideño</title>
+    <title>Menú de Navidad</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,7 +13,7 @@
             padding: 20px;
         }
         .menu-container {
-            max-width: 600px;
+            max-width: 800px;
             margin: 0 auto;
             background-color: #fff;
             padding: 20px;
@@ -23,26 +23,85 @@
         h1 {
             color: #b22222;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
+        .dish {
+            margin-bottom: 30px;
         }
-        li {
-            font-size: 18px;
-            margin: 10px 0;
+        .dish img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .dish h2 {
+            margin-top: 15px;
+            color: #b22222;
+        }
+        .ingredients {
+            text-align: left;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .ingredients li {
+            margin-bottom: 5px;
         }
     </style>
 </head>
 <body>
     <div class="menu-container">
-        <h1>🎄 Menú Navideño 🎄</h1>
-        <ul>
-            <li>Entrada: Sopa de mariscos</li>
-            <li>Plato principal: Pavo al horno con puré de patatas</li>
-            <li>Postre: Tronco de Navidad de chocolate</li>
-            <li>Bebidas: Vino tinto, cava y refrescos</li>
-        </ul>
-        <p>¡Esperamos que disfruten la cena! ❤️</p>
+        <h1>🎄 Menú de Navidad 🎄</h1>
+
+        <div class="dish">
+            <img src="https://www.lavanguardia.com/files/og_thumbnail/uploads/2023/11/18/6380fae0e8e0d.jpeg" alt="Huevos Rellenos Endiablados">
+            <h2>Huevos Rellenos Endiablados</h2>
+            <ul class="ingredients">
+                <li>Huevos</li>
+                <li>Mayonesa</li>
+                <li>Mostaza Dijon</li>
+                <li>Vinagre de manzana</li>
+                <li>Pimentón picante</li>
+                <li>Cebollino fresco</li>
+            </ul>
+        </div>
+
+        <div class="dish">
+            <img src="https://cookidoo.es/recipes/recipe/es-ES/r151494" alt="Tomates Rellenos con Champiñones y Frutos Secos">
+            <h2>Tomates Rellenos con Champiñones y Frutos Secos</h2>
+            <ul class="ingredients">
+                <li>Tomates maduros</li>
+                <li>Champiñones frescos</li>
+                <li>Frutos secos variados (almendras, nueces)</li>
+                <li>Arroz de grano largo</li>
+                <li>Hierbas frescas (menta, perejil)</li>
+                <li>Zumo de limón</li>
+            </ul>
+        </div>
+
+        <div class="dish">
+            <img src="https://www.example.com/imagen_pollo_relleno.jpg" alt="Pollo Relleno de Navidad">
+            <h2>Pollo Relleno de Navidad</h2>
+            <ul class="ingredients">
+                <li>Pollo entero</li>
+                <li>Carne picada</li>
+                <li>Frutos secos (nueces, almendras)</li>
+                <li>Frutas deshidratadas (ciruelas, pasas)</li>
+                <li>Especias (canela, nuez moscada)</li>
+                <li>Vino blanco</li>
+            </ul>
+        </div>
+
+        <div class="dish">
+            <img src="https://www.example.com/imagen_tronco_navidad.jpg" alt="Tronco de Navidad de Chocolate">
+            <h2>Tronco de Navidad de Chocolate</h2>
+            <ul class="ingredients">
+                <li>Harina</li>
+                <li>Huevos</li>
+                <li>Azúcar</li>
+                <li>Cacao en polvo</li>
+                <li>Chocolate negro</li>
+                <li>Nata para montar</li>
+            </ul>
+        </div>
+
+        <p>¡Esperamos que disfruten de la cena! ❤️</p>
     </div>
 </body>
 </html>
