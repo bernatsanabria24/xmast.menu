@@ -12,6 +12,8 @@
             text-align: center;
             padding: 20px;
             position: relative;
+            display: flex;
+            justify-content: center;
         }
         .menu-container {
             max-width: 800px;
@@ -45,22 +47,26 @@
         .ingredients li {
             margin-bottom: 5px;
         }
-        .bells {
+        .bells-left {
             position: absolute;
-            width: 50px;
-            top: 20px;
+            top: 0;
+            left: -50px;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            font-size: 24px;
         }
-        .bell-left {
-            left: 10px;
-        }
-        .bell-right {
-            right: 10px;
+        .bells-right {
+            position: absolute;
+            top: 0;
+            right: -50px;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            font-size: 24px;
         }
     </style>
 </head>
 <body>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Christmas_bell.png" alt="Campanita" class="bells bell-left">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Christmas_bell.png" alt="Campanita" class="bells bell-right">
+    <div class="bells-left">🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔</div>
     <div class="menu-container">
         <h1>🎄 Menú de Navidad 🎄</h1>
 
@@ -117,5 +123,6 @@
 
         <p>¡Esperamos que disfruten de la cena! ❤️</p>
     </div>
+    <div class="bells-right">🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔</div>
 </body>
 </html>
