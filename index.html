@@ -11,6 +11,7 @@
             color: #333;
             text-align: center;
             padding: 20px;
+            position: relative;
         }
         .menu-container {
             max-width: 800px;
@@ -19,6 +20,7 @@
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
         }
         h1 {
             color: #b22222;
@@ -43,14 +45,27 @@
         .ingredients li {
             margin-bottom: 5px;
         }
+        .bells {
+            position: absolute;
+            width: 50px;
+            top: 20px;
+        }
+        .bell-left {
+            left: 10px;
+        }
+        .bell-right {
+            right: 10px;
+        }
     </style>
 </head>
 <body>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Christmas_bell.png" alt="Campanita" class="bells bell-left">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Christmas_bell.png" alt="Campanita" class="bells bell-right">
     <div class="menu-container">
         <h1>🎄 Menú de Navidad 🎄</h1>
 
         <div class="dish">
-            <img src="https://www.lavanguardia.com/files/og_thumbnail/uploads/2023/11/18/6380fae0e8e0d.jpeg" alt="Huevos Rellenos Endiablados">
+            <img src="/mnt/data/huevos.jpeg" alt="Huevos Rellenos Endiablados">
             <h2>Huevos Rellenos Endiablados</h2>
             <ul class="ingredients">
                 <li>Huevos</li>
@@ -63,7 +78,7 @@
         </div>
 
         <div class="dish">
-            <img src="https://cookidoo.es/recipes/recipe/es-ES/r151494" alt="Tomates Rellenos con Champiñones y Frutos Secos">
+            <img src="/mnt/data/toamte.jpg" alt="Tomates Rellenos con Champiñones y Frutos Secos">
             <h2>Tomates Rellenos con Champiñones y Frutos Secos</h2>
             <ul class="ingredients">
                 <li>Tomates maduros</li>
@@ -76,28 +91,27 @@
         </div>
 
         <div class="dish">
-            <img src="https://www.example.com/imagen_pollo_relleno.jpg" alt="Pollo Relleno de Navidad">
-            <h2>Pollo Relleno de Navidad</h2>
+            <img src="/mnt/data/corona-de-salmon-y-mostaza--385902p728949.jpg" alt="Corona de Salmón y Mostaza">
+            <h2>Corona de Salmón y Mostaza</h2>
             <ul class="ingredients">
-                <li>Pollo entero</li>
-                <li>Carne picada</li>
-                <li>Frutos secos (nueces, almendras)</li>
-                <li>Frutas deshidratadas (ciruelas, pasas)</li>
-                <li>Especias (canela, nuez moscada)</li>
-                <li>Vino blanco</li>
+                <li>Salmón ahumado</li>
+                <li>Mostaza Dijon</li>
+                <li>Eneldo fresco</li>
+                <li>Queso crema</li>
+                <li>Masa de hojaldre</li>
             </ul>
         </div>
 
         <div class="dish">
-            <img src="https://www.example.com/imagen_tronco_navidad.jpg" alt="Tronco de Navidad de Chocolate">
-            <h2>Tronco de Navidad de Chocolate</h2>
+            <img src="/mnt/data/albacaha.jpg" alt="Ensalada Caprese Navideña">
+            <h2>Ensalada Caprese Navideña</h2>
             <ul class="ingredients">
-                <li>Harina</li>
-                <li>Huevos</li>
-                <li>Azúcar</li>
-                <li>Cacao en polvo</li>
-                <li>Chocolate negro</li>
-                <li>Nata para montar</li>
+                <li>Tomates frescos</li>
+                <li>Mozzarella</li>
+                <li>Hojas de albahaca</li>
+                <li>Aceitunas negras</li>
+                <li>Aceite de oliva</li>
+                <li>Vinagre balsámico</li>
             </ul>
         </div>
 
