@@ -11,9 +11,6 @@
             color: #fff;
             text-align: center;
             padding: 20px;
-            position: relative;
-            display: flex;
-            justify-content: center;
         }
         .menu-container {
             max-width: 800px;
@@ -22,7 +19,6 @@
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            position: relative;
             color: #333;
         }
         h1 {
@@ -48,33 +44,31 @@
         .ingredients li {
             margin-bottom: 5px;
         }
-        .bells-left {
-            position: absolute;
-            top: 0;
-            left: -50px;
+        .bells {
             writing-mode: vertical-rl;
             text-orientation: mixed;
             font-size: 24px;
+            position: fixed;
+            top: 0;
+        }
+        .bells-left {
+            left: 10px;
         }
         .bells-right {
-            position: absolute;
-            top: 0;
-            right: -50px;
-            writing-mode: vertical-rl;
-            text-orientation: mixed;
-            font-size: 24px;
+            right: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="bells-left">🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔</div>
+    <div class="bells bells-left">🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔</div>
     <div class="menu-container">
         <h1>🎄 Christmas Menu 🎄</h1>
 
-        <p>Welcome, Idil, Rafa, and Tijmen, to this beautiful and intimate Christmas celebration. Your presence makes this evening truly special.<br>
-Çok teşekkürler<br>
-Dziękuję<br>
-Dankjewel<br>
+        <p>Welcome, Idil, Rafa, and Tijmen, to this beautiful and intimate Christmas celebration.
+            Your presence makes this evening truly special.<br>
+            
+Çok teşekkürler // Dziękuję // Dankjewel // Gracias<br>
+
 for sharing this moment with us!</p>
 
         <div class="dish">
@@ -131,24 +125,14 @@ for sharing this moment with us!</p>
         <div class="dish">
             <img src="https://recetasdecocina.elmundo.es/wp-content/uploads/2022/08/tiramisu-postre-italiano.jpg" alt="Tiramisu">
             <h2>Tiramisu</h2>
-           </ul>
         </div>
 
-
-      
-        <p>We hope you enjoy the dinner! ❤️</p>
-    </div>
-
-
-
-
-  
-
-    <div class="dish">
+        <div class="dish">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZj6QgGsuoVyjeqbd2DagND9HHyroO_Pq-XC9n7G30VrsWyu_CtZ9Kd77jpquBaWPOoAU&usqp=CAU" alt="Christmas Decoration">
         </div>
-    <div class="bells-right">🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔</div>
 
-  
+        <p>We hope you enjoy the dinner! ❤️</p>
+    </div>
+    <div class="bells bells-right">🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔</div>
 </body>
 </html>
